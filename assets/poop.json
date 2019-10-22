@@ -1,0 +1,20 @@
+{"frames": {
+
+"Untitled-1.gif":
+{
+	"frame": {"x":0,"y":0,"w":100,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":122},
+	"sourceSize": {"w":100,"h":122}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "poop.png",
+	"format": "RGBA8888",
+	"size": {"w":100,"h":122},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b375dfce732cb4090d741b9bc677c33b:a6d34d7707301585754b4b4d67151f8b:e416df451f002fd2c53315e4809c0b32$"
+}
+}

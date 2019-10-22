@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "fiveo.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 224,
+				"h": 272
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "fiveo.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 222,
+						"h": 270
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:bae04c25d7b38ba1e763f169dcd58498:86fea4d7f15e1fa26963d9993522bf70:7341aa5589f946787f8c84e4ebbaae4d$"
+	}
+}

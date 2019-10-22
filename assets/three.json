@@ -1,0 +1,377 @@
+{
+	"textures": [
+		{
+			"image": "three.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2016,
+				"h": 544
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "trey1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 225,
+						"y": 1,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 449,
+						"y": 1,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 673,
+						"y": 1,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 897,
+						"y": 1,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 1121,
+						"y": 1,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 1345,
+						"y": 1,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 1569,
+						"y": 1,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 1793,
+						"y": 1,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 1,
+						"y": 273,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 225,
+						"y": 273,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 449,
+						"y": 273,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 673,
+						"y": 273,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 897,
+						"y": 273,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 1121,
+						"y": 273,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 1345,
+						"y": 273,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "trey17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 1569,
+						"y": 273,
+						"w": 222,
+						"h": 270
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:42680a33b2ba6c858583a2fed200548c:f5bfe81728006e5d5108e6fb4f62a468:4f04ad83c689e7460c755fef59868aeb$"
+	}
+}

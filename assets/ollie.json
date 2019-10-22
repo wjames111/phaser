@@ -1,0 +1,251 @@
+{
+	"textures": [
+		{
+			"image": "ollie.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 444,
+				"h": 1620
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ollie1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "ollie2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 222,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "ollie3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 0,
+						"y": 270,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "ollie4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 222,
+						"y": 270,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "ollie5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 0,
+						"y": 540,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "ollie6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 222,
+						"y": 540,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "ollie7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 0,
+						"y": 810,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "ollie9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 222,
+						"y": 810,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "ollie10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 0,
+						"y": 1080,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "ollie11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 222,
+						"y": 1080,
+						"w": 222,
+						"h": 270
+					}
+				},
+				{
+					"filename": "ollie12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 270
+					},
+					"frame": {
+						"x": 0,
+						"y": 1350,
+						"w": 222,
+						"h": 270
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:6fabe87055cf3b299f77f2599c7c3a64:1dba8cfcd8f865a624522e8b611ed0a1:2cda9200b8b66ed258457acdd6268447$"
+	}
+}

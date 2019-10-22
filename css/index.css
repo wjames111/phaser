@@ -1,0 +1,33 @@
+
+
+canvas {
+  width: 50vw;
+  height:50vh;
+
+}
+.dive:hover {
+-webkit-transform: scale(20);
+        transform: scale(20);
+}
+h1 {
+  background: blue;
+}
+
+body {
+  background: blue;
+}
+.dive {
+  background-image:url('../assets/city.png');
+  height: 20vh;
+  width: 20vh;
+
+      transition: -webkit-transform .2s;
+  transition: -webkit-transform 2s animation;
+  transition: transform 2s animation;
+  transition: transform 2s animation, -webkit-transform 2s animation;
+}
+.container{
+  height: 20vh;
+  width: 20vh;
+  overflow: hidden;
+}
