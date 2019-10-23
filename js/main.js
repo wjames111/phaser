@@ -90,7 +90,7 @@ var skateboard1 = loOne
   game.state.add('controls', controllerState);
   game.state.add('about', aboutState);
   game.state.add('play', playState);
-  game.state.add('play2', playState2);
+  // game.state.add('play2', playState2);
   game.state.start('mainmenu')
 
 

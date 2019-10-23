@@ -16,14 +16,13 @@ preload: function() {
 
     game.load.image('ground', 'assets/grounds.png')
     game.load.spritesheet('mummy', 'assets/flattricks.png', 220, 270);
-    game.load.spritesheet('mummies', 'assets/flattricks.png', 220, 270);
     game.load.image('heart', 'assets/heart.png', 55, 68);
-    game.load.image('background', 'assets/physics/sky.png');
+    game.load.image('background', 'assets/sky.png');
     game.load.image('cityline', 'assets/skyline6.png');
     game.load.image('menu', 'assets/menu.png');
     game.load.image('gameover', 'assets/gameover.png')
     game.load.image('menubackground', 'assets/gameover.png')
-    game.load.image('2can', 'assets/physics/2cans.png')
+    game.load.image('2can', 'assets/2cans.png')
      game.load.image('layover', 'assets/menulayover.png')
 
 
@@ -451,6 +450,9 @@ function kickflip(){
         player.events.onAnimationComplete.add(function(){
            player.animations.play('crouch', 10, true)
         })
+
+
+
     }
 
 

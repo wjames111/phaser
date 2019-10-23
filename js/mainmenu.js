@@ -30,13 +30,7 @@ mn3.scale.setTo(0.7,0.7);
 
 mn1.events.onInputOver.add(function(){
   game.add.tween(mn1.scale).to( { x: 0.72, y: 0.72 }, 150, Phaser.Easing.Linear.None, true);
-  var phaserm = new Tone.Phaser({
-  "frequency" : 1,
-  "octaves" : 9,
-  "baseFrequency" :1000
-}).toMaster();
-var synth = new Tone.DuoSynth().connect(phaserm);
-synth.triggerAttackRelease("E5", "8n");
+
 })
 mn1.events.onInputOut.add(function(){
   game.add.tween(mn1.scale).to( { x: 0.7, y: 0.7 }, 150, Phaser.Easing.Linear.None, true);
@@ -44,13 +38,7 @@ mn1.events.onInputOut.add(function(){
 
 mn2.events.onInputOver.add(function(){
   game.add.tween(mn2.scale).to( { x: 0.72, y: 0.72 }, 150, Phaser.Easing.Linear.None, true);
-    var phaserm = new Tone.Phaser({
-  "frequency" : 1,
-  "octaves" : 4,
-  "baseFrequency" :1000
-}).toMaster();
-var synth = new Tone.DuoSynth().connect(phaserm);
-synth.triggerAttackRelease("G4", "8n");
+
 })
 mn2.events.onInputOut.add(function(){
   game.add.tween(mn2.scale).to( { x: 0.7, y: 0.7 }, 150, Phaser.Easing.Linear.None, true);
@@ -58,13 +46,7 @@ mn2.events.onInputOut.add(function(){
 
 mn3.events.onInputOver.add(function(){
   game.add.tween(mn3.scale).to( { x: 0.72, y: 0.72 }, 150, Phaser.Easing.Linear.None, true);
-    var phaserm = new Tone.Phaser({
-  "frequency" : 1,
-  "octaves" : 2,
-  "baseFrequency" :1000
-}).toMaster();
-var synth = new Tone.DuoSynth().connect(phaserm);
-synth.triggerAttackRelease("D3", "8n");
+
 })
 mn3.events.onInputOut.add(function(){
   game.add.tween(mn3.scale).to( { x: 0.7, y: 0.7 }, 150, Phaser.Easing.Linear.None, true);
