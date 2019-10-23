@@ -30,13 +30,7 @@ mn3.scale.setTo(0.7,0.7);
 
 mn1.events.onInputOver.add(function(){
   game.add.tween(mn1.scale).to( { x: 0.72, y: 0.72 }, 150, Phaser.Easing.Linear.None, true);
-  var phaserm = new Tone.Phaser({
-  "frequency" : 1,
-  "octaves" : 9,
-  "baseFrequency" :1000
-}).toMaster();
-var synth = new Tone.DuoSynth().connect(phaserm);
-synth.triggerAttackRelease("E5", "8n");
+
 })
 mn1.events.onInputOut.add(function(){
   game.add.tween(mn1.scale).to( { x: 0.7, y: 0.7 }, 150, Phaser.Easing.Linear.None, true);
@@ -44,13 +38,7 @@ mn1.events.onInputOut.add(function(){
 
 mn2.events.onInputOver.add(function(){
   game.add.tween(mn2.scale).to( { x: 0.72, y: 0.72 }, 150, Phaser.Easing.Linear.None, true);
-    var phaserm = new Tone.Phaser({
-  "frequency" : 1,
-  "octaves" : 4,
-  "baseFrequency" :1000
-}).toMaster();
-var synth = new Tone.DuoSynth().connect(phaserm);
-synth.triggerAttackRelease("G4", "8n");
+
 })
 mn2.events.onInputOut.add(function(){
   game.add.tween(mn2.scale).to( { x: 0.7, y: 0.7 }, 150, Phaser.Easing.Linear.None, true);
@@ -58,13 +46,7 @@ mn2.events.onInputOut.add(function(){
 
 mn3.events.onInputOver.add(function(){
   game.add.tween(mn3.scale).to( { x: 0.72, y: 0.72 }, 150, Phaser.Easing.Linear.None, true);
-    var phaserm = new Tone.Phaser({
-  "frequency" : 1,
-  "octaves" : 2,
-  "baseFrequency" :1000
-}).toMaster();
-var synth = new Tone.DuoSynth().connect(phaserm);
-synth.triggerAttackRelease("D3", "8n");
+
 })
 mn3.events.onInputOut.add(function(){
   game.add.tween(mn3.scale).to( { x: 0.7, y: 0.7 }, 150, Phaser.Easing.Linear.None, true);
@@ -76,6 +58,10 @@ mn1.events.onInputUp.add(function(){
 
 mn2.events.onInputUp.add(function(){
   game.state.start('controls')
+})
+
+mn3.events.onInputUp.add(function(){
+  game.state.start('about')
 })
 
 
@@ -555,6 +541,8 @@ var controllerState = {
 
     game.load.image('controlList', 'assets/controlpage.png')
 
+     game.load.image('rewind', 'assets/rewind.png')
+
 
   },
   create: function(){
@@ -574,6 +562,95 @@ var controllerState = {
 
     var mainback = game.add.sprite(0, 0, 'mainBGC')
     var locked = game.add.sprite(0, 0, 'controlList')
+
+
+
+
+
+  rewinder = game.add.sprite(350,  650, 'rewind')
+rewinder.inputEnabled = true;
+
+rewinder.events.onInputOver.add(function(){
+  game.add.tween(rewinder.scale).to( { x: 1.05, y: 1.05 }, 150, Phaser.Easing.Linear.None, true);})
+
+rewinder.events.onInputOut.add(function(){
+  game.add.tween(rewinder.scale).to( { x: 1, y: 1 }, 150, Phaser.Easing.Linear.None, true);})
+
+
+
+rewinder.events.onInputUp.add(function(){
+  game.state.start('mainmenu')
+
+  // rewinder.destroy()
+  // locked.destroy()
+  // mainback.destroy()
+  // coin.destroy()
+  // monies.destroy()
+
+})
+
+    }
+}
+
+
+
+
+
+
+var aboutState = {
+
+  preload: function (){
+    game.load.image('mainBGC', 'assets/green3.jpg')
+
+    game.load.image('controlList', 'assets/aboutpage.png')
+
+     game.load.image('rewind', 'assets/rewind.png')
+
+
+  },
+  create: function(){
+
+     var monies = game.add.text(680, 10, '$'+person.money ,{ font: "24px Arial", fill: "#fffff", align: "center" });
+     monies.font = 'Just Me Again Down Here';
+
+
+
+     var coin = game.add.sprite(613, 3, 'coin')
+     coin.scale.setTo(0.7, 0.7)
+
+
+
+
+
+
+    var mainback = game.add.sprite(0, 0, 'mainBGC')
+    var locked = game.add.sprite(0, 0, 'controlList')
+
+
+
+
+
+  rewinder = game.add.sprite(350,  650, 'rewind')
+rewinder.inputEnabled = true;
+
+rewinder.events.onInputOver.add(function(){
+  game.add.tween(rewinder.scale).to( { x: 1.05, y: 1.05 }, 150, Phaser.Easing.Linear.None, true);})
+
+rewinder.events.onInputOut.add(function(){
+  game.add.tween(rewinder.scale).to( { x: 1, y: 1 }, 150, Phaser.Easing.Linear.None, true);})
+
+
+
+rewinder.events.onInputUp.add(function(){
+  game.state.start('mainmenu')
+
+  // rewinder.destroy()
+  // locked.destroy()
+  // mainback.destroy()
+  // coin.destroy()
+  // monies.destroy()
+
+})
 
     }
 }
