@@ -33,6 +33,7 @@ preload: function() {
 
 
 create: function() {
+  points = 0
   game.world.setBounds(0,0,8000,380)
 
   game.physics.startSystem(Phaser.Physics.ARCADE);
